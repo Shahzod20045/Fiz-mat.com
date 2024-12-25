@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiz-mat O'quv Markazi</title>
+    <link rel="stylesheet" href="styles.css"> <!-- CSS faylini ulash -->
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>Fiz-mat O'quv Markazi</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Bosh Sahifa</a></li>
+                <li><a href="#courses">Darslar</a></li>
+                <li><a href="#about">Biz Haqimizda</a></li>
+                <li><a href="#" id="showContact">Bog'lanish</a></li> <!-- Modalni ochadigan tugma -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section (Landing page) -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Fizika va Matematika bo'yicha darslar</h2>
+            <p>Fiz-mat O'quv Markazi – matematika va fizika fanlari bo'yicha zamonaviy va samarali ta'lim</p>
+            <a href="#courses" class="btn-primary">Darslar haqida ko'proq ma'lumot</a>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses">
+        <h2>Bizning Darslarimiz</h2>
+        <div class="course-list">
+            <div class="course">
+                <h3>Matematika</h3>
+                <p>Algebra, Geometriya, va Statistika darslari.</p>
+                <a href="#">Batafsil</a>
+            </div>
+            <div class="course">
+                <h3>Fizika</h3>
+                <p>Mehanika, Optika va Elektr darslari.</p>
+                <a href="#">Batafsil</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>Biz Haqimizda</h2>
+        <p>Fiz-mat O'quv Markazi - o'quvchilarga matematika va fizika fanlarini o'qitishda innovatsion usullarni qo'llaydi.</p>
+    </section>
+
+    <!-- Contact Section (Modal) -->
+    <section id="contact" class="contact hidden">
+        <h2>Biz bilan bog'laning</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Ism" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <textarea id="message" placeholder="Xabar" required></textarea>
+            <button type="submit">Yuborish</button>
+        </form>
+        <button id="closeModal" class="close-btn">Yopish</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Fiz-mat O'quv Markazi | Barcha huquqlar himoyalangan.</p>
+    </footer>
+
+    <!-- JavaScript fayli -->
+    <script src="script.js"></script> <!-- JavaScript faylini ulash -->
+</body>
+</html>
